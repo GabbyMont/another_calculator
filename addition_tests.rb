@@ -16,4 +16,9 @@ class Addition_brony_test < Minitest::Test
 		assert_equal(3,add)
 	end
 
+	def test_5_plus_64
+		add = addition(5,64)
+		assert_equal(69, add)
+	end
+
 end
