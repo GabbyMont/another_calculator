@@ -7,8 +7,13 @@ class Addition_brony_test < Minitest::Test
 	end
 
 	def test_1_plus_1
-		add = addition()
+		add = addition(1,1)
 		assert_equal(2,add)
+	end
+
+	def test_1_plus_2
+		add = addition(1,2)
+		assert_equal(3,add)
 	end
 
 end
